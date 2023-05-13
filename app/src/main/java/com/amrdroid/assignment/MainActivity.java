@@ -62,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     loadFragment(new NotesFragment());
                 }
+
+                navigationView.getMenu().getItem(0).setChecked(true);
                 drawerLayout.closeDrawer(GravityCompat.START);
 
 
